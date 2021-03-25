@@ -1,0 +1,12 @@
+/* ============= utiles ================= */
+@import url(./vendor/normalize.css);
+@import url(./blocks/body/body.css);
+
+/* ============= header ================= */
+@import url(./blocks/header/header.css);
+
+/* ============= page ================= */
+@import url(./blocks/page/page.css);
+
+/* ============= footer ================= */
+@import url(./blocks/footer/footer.css);
