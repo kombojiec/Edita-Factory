@@ -1,0 +1,9 @@
+.low-nav__link{
+    text-decoration: none;
+    margin-right: 2.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.3rem;
+    text-transform: uppercase;
+    color: #000;
+}
