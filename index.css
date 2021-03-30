@@ -44,9 +44,32 @@
 @import url(./blocks/button/button.css);
 @import url(./blocks/button/_type/button_type_gray.css);
 @import url(./blocks/button/_type/button_type_red.css);
+@import url(./blocks/button/_type/button_type_white.css);
 
 /* ============= page ================= */
 @import url(./blocks/page/page.css);
+
+/* ============= section ================= */
+@import url(./blocks/section/section.css);
+@import url(./blocks/section/_type/section_type_gray.css);
+
+/* ============= main-grid ================= */
+@import url(./blocks/main-grid/main-grid.css);
+@import url(./blocks/main-grid/__item/main-grid__item.css);
+@import url(./blocks/main-grid/__item/_type/main-grid_type_slider.css);
+@import url(./blocks/main-grid/__item/_type/main-grid_type_wide.css);
+@import url(./blocks/main-grid/__img/main-grid__img.css);
+
+/* ============= add ================= */
+@import url(./blocks/add/add.css);
+@import url(./blocks/add/_type/add_type_slider.css);
+@import url(./blocks/add/_type/add_type_wide.css);
+@import url(./blocks/add/_type/add_type_top-left.css);
+@import url(./blocks/add/_type/add_type_bottom-left.css);
+@import url(./blocks/add/__title/add__title.css);
+@import url(./blocks/add/__title/_type/add__title_type_lg.css);
+@import url(./blocks/add/__subtitle/add__subtitle.css);
+@import url(./blocks/add/__link/add__link.css);
 
 /* ============= footer ================= */
 @import url(./blocks/footer/footer.css);

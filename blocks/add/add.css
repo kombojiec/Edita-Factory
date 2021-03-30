@@ -1,0 +1,10 @@
+.add{
+  position: absolute;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 3rem 2.5rem;
+  box-sizing: border-box;
+  max-width: 17rem;
+}

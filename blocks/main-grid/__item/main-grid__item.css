@@ -1,0 +1,5 @@
+.main-grid__item{
+  position: relative;
+  align-self: stretch;
+  justify-self: stretch;
+}
