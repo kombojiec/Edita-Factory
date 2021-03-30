@@ -7,3 +7,7 @@
     text-transform: uppercase;
     color: #000;
 }
+
+.low-nav__link:hover{
+    text-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.5);
+}

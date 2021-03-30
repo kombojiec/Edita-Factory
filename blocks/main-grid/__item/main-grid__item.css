@@ -3,3 +3,7 @@
   align-self: stretch;
   justify-self: stretch;
 }
+
+.main-grid__item:nth-child(1n + 4) .add__title{
+  margin: 0;
+}

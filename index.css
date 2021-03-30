@@ -71,5 +71,14 @@
 @import url(./blocks/add/__subtitle/add__subtitle.css);
 @import url(./blocks/add/__link/add__link.css);
 
+/* ============= features ================= */
+@import url(./blocks/features/features.css);
+@import url(./blocks/features/__item/features__item.css);
+@import url(./blocks/features/__img/features__img.css);
+@import url(./blocks/features/__link/features__link.css);
+@import url(./blocks/features/__description/features__description.css);
+/* @import url(./blocks/features); */
+/* @import url(./blocks/features); */
+
 /* ============= footer ================= */
 @import url(./blocks/footer/footer.css);
