@@ -1,0 +1,7 @@
+.slider__item{
+  position: relative;  
+}
+
+.slider__item:hover .button_type_slider{
+  bottom: -5rem;
+}

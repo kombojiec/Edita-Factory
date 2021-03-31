@@ -1,0 +1,9 @@
+.slider__title{
+  padding: 0;
+  margin: 0 0 2.3rem;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+  letter-spacing: 0.2em;
+  color: #9b9b9b;
+  text-transform: uppercase;
+}

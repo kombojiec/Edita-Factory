@@ -1,0 +1,9 @@
+.slider__add{
+  background-color: #f9f8f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0 2.5rem;
+  position: relative;
+}
