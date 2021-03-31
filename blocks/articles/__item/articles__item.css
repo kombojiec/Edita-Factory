@@ -1,0 +1,8 @@
+.articles__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 35rem;
+  margin: 5rem 0 6rem;
+}

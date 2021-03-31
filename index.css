@@ -54,12 +54,14 @@
 @import url(./blocks/button/_type/button_type_factory.css);
 @import url(./blocks/button/_type/button_type_slider.css);
 @import url(./blocks/button/_type/button_type_transparent.css);
+@import url(./blocks/button/_type/button_type_dark.css);
 
 /* ============= section ================= */
 @import url(./blocks/section/section.css);
 @import url(./blocks/section/__title-wrap/section__title-wrap.css);
 @import url(./blocks/section/__title/section__title.css);
 @import url(./blocks/section/_type/section_type_gray.css);
+@import url(./blocks/section/_type/section_type_articles.css);
 @import url(./blocks/section/_type/section_type_factory.css);
 @import url(./blocks/section/_type/section_type_info.css);
 @import url(./blocks/section/__title/_type/section__title_type_factory.css);
@@ -119,7 +121,15 @@
 @import url(./blocks/info/__description/info__description.css);
 @import url(./blocks/info/__description-accent/info__description-accent.css);
 @import url(./blocks/info/__img/info__img.css);
-/* @import url(./blocks/info); */
+
+/* ============= articles ================= */
+@import url(./blocks/articles/articles.css);
+@import url(./blocks/articles/__item/articles__item.css);
+@import url(./blocks/articles/__item-wrap/articles__item-wrap.css);
+@import url(./blocks/articles/__item/_type/articles__item_type_left.css);
+@import url(./blocks/articles/__item/_type/articles__item_type_right.css);
+@import url(./blocks/articles/__title/articles__title.css);
+@import url(./blocks/articles/__link/articles__link.css);
 
 
 /* ============= footer ================= */
