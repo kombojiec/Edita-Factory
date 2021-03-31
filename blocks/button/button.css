@@ -5,6 +5,8 @@
     background-color: #fff;
     color: #000;
     border: none;
+    text-decoration: none;
+    text-align: center;
 }
 
 button:hover{
