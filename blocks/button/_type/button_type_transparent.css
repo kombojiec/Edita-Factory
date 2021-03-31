@@ -1,0 +1,13 @@
+.button_type_transparent{
+  padding: 1.5rem 4rem;
+  color: #ffffff;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.2em;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.button_type_transparent:hover{
+  background-color: #223250;
+}

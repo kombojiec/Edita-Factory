@@ -6,6 +6,12 @@
 @import url(./blocks/body/body.css);
 @import url(./blocks/document/document.css);
 
+/* ============= page ================= */
+@import url(./blocks/page/page.css);
+
+/* ============= text ================= */
+@import url(./blocks/text/text.css);
+@import url(./blocks/text/_type/text_type_light.css);
 
 /* ============= container ================= */
 @import url(./blocks/container/container.css);
@@ -47,9 +53,7 @@
 @import url(./blocks/button/_type/button_type_white.css);
 @import url(./blocks/button/_type/button_type_factory.css);
 @import url(./blocks/button/_type/button_type_slider.css);
-
-/* ============= page ================= */
-@import url(./blocks/page/page.css);
+@import url(./blocks/button/_type/button_type_transparent.css);
 
 /* ============= section ================= */
 @import url(./blocks/section/section.css);
@@ -57,6 +61,7 @@
 @import url(./blocks/section/__title/section__title.css);
 @import url(./blocks/section/_type/section_type_gray.css);
 @import url(./blocks/section/_type/section_type_factory.css);
+@import url(./blocks/section/_type/section_type_info.css);
 @import url(./blocks/section/__title/_type/section__title_type_factory.css);
 
 /* ============= main-grid ================= */
@@ -101,6 +106,19 @@
 @import url(./blocks/slider/__price/slider__price.css);
 @import url(./blocks/slider/__add-wrap/slider__add-wrap.css);
 @import url(./blocks/slider/__link/slider__link.css);
+
+/* ============= info ================= */
+@import url(./blocks/info/info.css);
+@import url(./blocks/info/__item/info__item.css);
+@import url(./blocks/info/__item/_type/info__item_type_bg.css);
+@import url(./blocks/info/__item/_type/info__item_type_gray.css);
+@import url(./blocks/info/__preface/info__preface.css);
+@import url(./blocks/info/__title/info__title.css);
+@import url(./blocks/info/__description/info__description.css);
+@import url(./blocks/info/__description-accent/info__description-accent.css);
+@import url(./blocks/info/__img/info__img.css);
+/* @import url(./blocks/info); */
+
 
 /* ============= footer ================= */
 @import url(./blocks/footer/footer.css);

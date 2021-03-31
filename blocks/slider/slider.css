@@ -3,5 +3,5 @@
   grid-template-rows: repeat(1, 100%);
   grid-template-columns: repeat(3, minmax(30%, 33.333%));
   column-gap: 3rem;
-  padding: 7rem 0 8rem;
+  padding: 7rem 0 5.5rem;
 }
