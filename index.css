@@ -9,10 +9,6 @@
 /* ============= page ================= */
 @import url(./blocks/page/page.css);
 
-/* ============= text ================= */
-@import url(./blocks/text/text.css);
-@import url(./blocks/text/_type/text_type_light.css);
-
 /* ============= container ================= */
 @import url(./blocks/container/container.css);
 
@@ -32,7 +28,6 @@
 @import url(./blocks/header/__buttons/header__buttons.css);
 @import url(./blocks/header/__contacts/header__contacts.css);
 @import url(./blocks/header/__phone/header__phone.css);
-
 
 /* ============= logo ================= */
 @import url(./blocks/logo/logo.css);
@@ -135,6 +130,46 @@
 @import url(./blocks/articles/__title/articles__title.css);
 @import url(./blocks/articles/__link/articles__link.css);
 
+/* ============= footer ================= */
+@import url(./blocks/navigation/navigation.css);
+@import url(./blocks/navigation/__link/navigation__link.css);
+@import url(./blocks/navigation/__list/navigation__list.css);
+@import url(./blocks/navigation/__title/navigation__title.css);
+@import url(./blocks/navigation/item/navigation__item.css);
+@import url(./blocks/navigation/items/navigation__items.css);
+/* @import url(./blocks/navigation); */
 
 /* ============= footer ================= */
 @import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__logo/footer__logo.css);
+@import url(./blocks/footer/__info/footer__info.css);
+@import url(./blocks/footer/__contacts/footer__contacts.css);
+@import url(./blocks/footer/__contacts-img/footer__contacts-img.css);
+@import url(./blocks/footer/__content/footer__content.css);
+@import url(./blocks/footer/__location/footer__location.css);
+@import url(./blocks/footer/__location-img/footer__location-img.css);
+@import url(./blocks/footer/__location-text/footer__location-text.css);
+@import url(./blocks/footer/__nav/footer__nav.css);
+@import url(./blocks/footer/__nav-item/footer__nav-item.css);
+@import url(./blocks/footer/__nav-link/footer__nav-link.css);
+@import url(./blocks/footer/__nav-list/footer__nav-list.css);
+@import url(./blocks/footer/__phones/footer__phones.css);
+@import url(./blocks/footer/__phone/footer__phone.css);
+@import url(./blocks/footer/__information/footer__information.css);
+@import url(./blocks/footer/__copyright/footer__copyright.css);
+@import url(./blocks/footer/__documents/footer__documents.css);
+@import url(./blocks/footer/__documents-link/footer__documents-link.css);
+@import url(./blocks/footer/__site-owner/footer__site-owner.css);
+@import url(./blocks/footer/__site-owner-link/footer__site-owner-link.css);
+/* @import url(./blocks/footer); */
+
+/* ============= map ================= */
+@import url(./blocks/map/map.css);
+@import url(./blocks/map/__cover/map__cover.css);
+@import url(./blocks/map/__button/map__button.css);
+
+
+/* ============= text ================= */
+@import url(./blocks/text/text.css);
+@import url(./blocks/text/_type/text_type_light.css);
+@import url(./blocks/text/_type/text_type_red.css);

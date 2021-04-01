@@ -1,0 +1,11 @@
+.footer__site-owner-link{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #555555;
+  transition: all 0.2s linear;
+}
+
+.footer__site-owner-link:hover{
+  color: #385382;
+  text-shadow: .5px .5px #000;
+}

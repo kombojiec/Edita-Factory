@@ -1,0 +1,9 @@
+.footer__phone{
+  margin-bottom: 1.6rem;
+  font-size: 1.5rem;
+  line-height: 1.3rem;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
