@@ -1,0 +1,11 @@
+.side-nav__item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #375281;
+  border-bottom: 0.1rem solid #fff;
+  margin: 0;
+  padding: 0;
+  width: 5rem;
+  max-width: 12rem;
+}

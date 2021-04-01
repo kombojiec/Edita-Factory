@@ -1,7 +1,9 @@
 .slider{
-  display: grid;
+  /* display: grid;
   grid-template-rows: repeat(1, 100%);
   grid-template-columns: repeat(3, minmax(30%, 33.333%));
-  column-gap: 3rem;
-  padding: 7rem 0 5.5rem;
+  column-gap: 3rem; */
+  position: relative;
+  min-width: 0;
+  padding: 7rem 0 2rem;
 }

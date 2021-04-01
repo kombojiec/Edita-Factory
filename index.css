@@ -130,6 +130,13 @@
 @import url(./blocks/articles/__title/articles__title.css);
 @import url(./blocks/articles/__link/articles__link.css);
 
+/* ============= side-nav ================= */
+@import url(./blocks/side-nav/side-nav.css);
+@import url(./blocks/side-nav/__img/side-nav__img.css);
+@import url(./blocks/side-nav/__item/side-nav__item.css);
+@import url(./blocks/side-nav/__link/side-nav__link.css);
+@import url(./blocks/side-nav/__list/side-nav__list.css);
+
 /* ============= footer ================= */
 @import url(./blocks/navigation/navigation.css);
 @import url(./blocks/navigation/__link/navigation__link.css);
@@ -137,7 +144,6 @@
 @import url(./blocks/navigation/__title/navigation__title.css);
 @import url(./blocks/navigation/item/navigation__item.css);
 @import url(./blocks/navigation/items/navigation__items.css);
-/* @import url(./blocks/navigation); */
 
 /* ============= footer ================= */
 @import url(./blocks/footer/footer.css);
@@ -168,8 +174,14 @@
 @import url(./blocks/map/__cover/map__cover.css);
 @import url(./blocks/map/__button/map__button.css);
 
+/* ============= slick ================= */
+@import url(./blocks/slick/slick.css);
 
 /* ============= text ================= */
 @import url(./blocks/text/text.css);
 @import url(./blocks/text/_type/text_type_light.css);
 @import url(./blocks/text/_type/text_type_red.css);
+
+/* ============= utiles ================= */
+@import url(./blocks/utiles/hidden.css);
+@import url(./blocks/utiles/visible.css);
