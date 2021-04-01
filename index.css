@@ -64,6 +64,7 @@
 @import url(./blocks/section/_type/section_type_articles.css);
 @import url(./blocks/section/_type/section_type_factory.css);
 @import url(./blocks/section/_type/section_type_info.css);
+@import url(./blocks/section/_type/section_type_novelties.css);
 @import url(./blocks/section/__title/_type/section__title_type_factory.css);
 
 /* ============= main-grid ================= */
@@ -101,6 +102,9 @@
 /* ============= slider ================= */
 @import url(./blocks/slider/slider.css);
 @import url(./blocks/slider/__item/slider__item.css);
+@import url(./blocks/slider/__item-info/slider__item-info.css);
+@import url(./blocks/slider/__discount/slider__discount.css);
+@import url(./blocks/slider/__novelty/slider__novelty.css);
 @import url(./blocks/slider/__img/slider__img.css);
 @import url(./blocks/slider/__add/slider__add.css);
 @import url(./blocks/slider/__title/slider__title.css);
