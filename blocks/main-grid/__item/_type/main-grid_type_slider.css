@@ -3,3 +3,10 @@
   grid-row: 1/3;
   position: relative;
 }
+
+@media (max-width: 568px){
+  .main-grid__item_type_slider{
+      grid-column: 1/2;
+      grid-row: 1/2;
+  }
+}

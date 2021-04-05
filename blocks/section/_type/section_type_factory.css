@@ -5,3 +5,9 @@
   margin-bottom: 35rem;
   background:  center / cover no-repeat url("../../../images/factory_bg.png");
 }
+
+@media (max-width: 568px){
+  .section_type_factory{
+    margin-bottom: 25rem;
+  }
+}

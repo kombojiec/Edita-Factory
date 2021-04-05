@@ -5,7 +5,17 @@ document.addEventListener('DOMContentLoaded', function(){
   $('.slider').slick({
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 569,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+        }
+      },      
+    ]
   });
 
   $('.main-grid__slider').slick({
@@ -13,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function(){
     slidesToShow: 1,
     slidesToScroll: 1
   });
-
+  
   // ============= боковое меню ===============
   const navTips = document.querySelectorAll('.side-nav__item');
   const navLinks = document.querySelectorAll('.side-nav__link');
@@ -38,10 +48,35 @@ document.addEventListener('DOMContentLoaded', function(){
   })
 
   document.addEventListener('scroll', () => {
-    if(pageYOffset > 134){
+    if(pageYOffset > 134 && window.innerWidth > 568){
       sideNav.classList.add('visible')
     }else{
       sideNav.classList.remove('visible');
+    }
+  })
+
+  // ============= боковое меню  мобильная версия===============
+  const mobileMenuButton = document.querySelector('.mobile-nav__button');
+  const mobileMenu = document.querySelector('.mobile-nav__wrap');
+
+  const closeMenu = () => {
+    mobileMenuButton.classList.remove('mobile-nav__button_open');
+    mobileMenu.classList.add('hidden');
+  }
+  
+  mobileMenuButton.addEventListener('click', event => {
+    if(mobileMenuButton.classList.contains('mobile-nav__button_open')){
+      closeMenu();
+    }else{
+      mobileMenuButton.classList.add('mobile-nav__button_open');
+      mobileMenu.classList.remove('hidden');
+    }
+  })  
+  mobileMenu.addEventListener('click', event => {
+    if(mobileMenuButton.classList.contains('mobile-nav__button_open')){
+      if(event.target == event.currentTarget){
+        closeMenu();
+      }
     }
   })
 

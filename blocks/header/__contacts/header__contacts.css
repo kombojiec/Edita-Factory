@@ -4,3 +4,9 @@
   align-items: center;
   margin-right: 2rem;
 }
+
+@media (max-width: 568px){
+  .header__contacts{
+    display: none;
+  }
+}

@@ -5,3 +5,11 @@
   gap: 3rem;
   grid-auto-flow: dense;
 }
+
+@media (max-width: 568px){
+  .main-grid{
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+      gap: 1rem;      
+  }
+}

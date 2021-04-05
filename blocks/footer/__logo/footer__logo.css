@@ -6,3 +6,9 @@
   padding-left: 0;
   background-color: transparent;
 }
+
+@media (max-width: 568px){
+  .footer__logo{
+    margin: auto;
+  }
+}
