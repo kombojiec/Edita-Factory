@@ -1,0 +1,12 @@
+.footer__nav-link{
+  font-size: 1.4rem;
+  line-height: 1.3rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+}
+
+.footer__nav-link:hover{
+  text-decoration: underline;
+}

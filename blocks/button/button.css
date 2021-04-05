@@ -1,6 +1,26 @@
 .button{
-    font-size: 11px;
-    line-height: 14px;
+    padding: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
     background-color: #fff;
     color: #000;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+button:hover{
+    box-shadow: 0 0 .5rem .5rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+button:active{
+    box-shadow: 0 0 .5rem .5rem rgba(0, 0, 0, 0.25);
+    border: none;
+    outline: none;
+}
+
+button:focus{
+    border: none;
+    outline: none;
 }

@@ -1,0 +1,11 @@
+.navigation__link{
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  letter-spacing: 0.05em;
+  color: #848484;  
+  text-decoration: none;
+}
+
+.navigation__link:hover{
+  text-shadow: .5px .5px #000;
+}

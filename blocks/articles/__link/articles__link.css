@@ -1,0 +1,11 @@
+.articles__link{
+  font-size: 1.4rem;
+  line-height: 1.3rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.articles__link:hover{
+  text-decoration: none;
+}

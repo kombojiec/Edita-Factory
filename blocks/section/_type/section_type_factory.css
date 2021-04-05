@@ -1,0 +1,7 @@
+.section_type_factory{
+  position: relative;
+  height: 34rem;
+  padding: 0;
+  margin-bottom: 35rem;
+  background:  center / cover no-repeat url("../../../images/factory_bg.png");
+}

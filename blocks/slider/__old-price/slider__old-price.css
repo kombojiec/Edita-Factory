@@ -1,0 +1,9 @@
+.slider__old-price{
+  position: absolute;
+  top: 0;
+  left: -70%;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  text-decoration: line-through;
+  color: #b8b8b8;
+}

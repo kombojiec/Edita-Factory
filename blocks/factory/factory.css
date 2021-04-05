@@ -1,0 +1,11 @@
+.factory{
+  position: relative;
+  top: 19rem;
+  display: grid;
+  grid-template-rows: repeat(2, 50%);
+  grid-template-columns: repeat(2, minmax(45%, 50%));
+  column-gap: 4.5rem;
+  border: 1px solid black;
+  padding: 3.5rem;
+  background: linear-gradient(to bottom,#f8f8f8 50%, #fff 51%, #fff 100%);
+}

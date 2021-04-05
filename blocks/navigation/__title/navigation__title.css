@@ -1,0 +1,14 @@
+.navigation__title{
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 1.3rem;
+  letter-spacing: 0.05em;
+  margin: 0 0 1.9rem;
+  padding: 0 0 0 0.6rem;
+  text-decoration: none;
+  color: #000000;
+}
+
+.navigation__title:hover{
+  text-decoration: underline;
+}

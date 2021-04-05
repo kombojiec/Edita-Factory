@@ -1,0 +1,14 @@
+.footer__documents-link{
+  padding: 0 1.2rem;
+  font-size: 1.41rem;
+  line-height: 1.31rem;
+  color: #555555;
+}
+
+.footer__documents-link:first-child{
+  border-right: 1px solid #555555;
+}
+
+.footer__documents-link:hover{
+  text-decoration: none;
+}

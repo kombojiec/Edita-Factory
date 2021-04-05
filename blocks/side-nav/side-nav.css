@@ -1,0 +1,7 @@
+.side-nav{
+  display: block;
+  position: fixed;
+  top: 10rem;
+  right: 1rem;
+  width: 12rem;
+}

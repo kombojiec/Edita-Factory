@@ -1,3 +1,6 @@
 .low-nav__item{
-    margin-right: 1.5rem;
+}
+
+.low-nav__item:first-child{
+    margin-left: 4rem;
 }

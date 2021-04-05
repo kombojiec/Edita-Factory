@@ -1,0 +1,9 @@
+.side-nav__link{
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+  letter-spacing: 0.02em;
+  color: #dde4ef;
+  padding: 0.5rem;
+  text-decoration: none;
+  display: none;
+}

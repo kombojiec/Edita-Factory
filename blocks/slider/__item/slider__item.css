@@ -1,0 +1,8 @@
+.slider__item{
+  position: relative;  
+  margin-bottom: 3.5rem;
+}
+
+.slider__item:hover .button_type_slider{
+  bottom: -5rem;
+}

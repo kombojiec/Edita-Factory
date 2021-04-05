@@ -1,0 +1,7 @@
+.footer__nav-item{
+  margin-right: 3rem;
+}
+
+.footer__nav-item:last-child{
+  margin: 0;
+}

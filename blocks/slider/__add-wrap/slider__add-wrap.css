@@ -1,0 +1,7 @@
+.slider__add-wrap{
+  position: absolute;
+  bottom: 1.7rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+}

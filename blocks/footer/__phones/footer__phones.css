@@ -1,0 +1,4 @@
+.footer__phones{
+  display: flex;
+  flex-direction: column;
+}

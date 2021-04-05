@@ -1,0 +1,11 @@
+.add__link{
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.add__link:hover{
+  text-decoration: none;
+}

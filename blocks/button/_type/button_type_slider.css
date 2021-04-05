@@ -1,0 +1,20 @@
+.button_type_slider{
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+  height: 5rem;
+  box-sizing: border-box;
+  background-color: rgba(58, 80, 121, 0.9);
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: all 0.3s linear;
+}
