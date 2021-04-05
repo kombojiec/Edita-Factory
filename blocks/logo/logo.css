@@ -19,7 +19,8 @@
 @media (max-width: 568px){
     .logo{
         position: relative;
-        max-width: 20rem;
+        max-width: 15rem;
+        padding: 2.3rem;
     }
 }
 

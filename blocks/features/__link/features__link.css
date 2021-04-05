@@ -13,3 +13,10 @@
 .features__link:hover{
   text-decoration: underline;
 }
+
+@media (max-width: 568px){
+  .features__link{
+    font-size: 2rem;
+    min-height: 0;
+  }
+}

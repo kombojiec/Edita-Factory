@@ -12,6 +12,8 @@
 
 @media (max-width: 568px){
   .factory{
-         /* grid-template-columns: repeat(5, 20%); */
+    grid-template-rows: max-content;
+    grid-template-columns: 1fr;
+    border: none;
   }
 }

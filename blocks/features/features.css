@@ -7,5 +7,6 @@
 @media (max-width: 568px){
   .features{
     flex-wrap: wrap;
+    justify-content: space-around;
   }
 }

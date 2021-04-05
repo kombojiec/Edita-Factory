@@ -12,3 +12,10 @@
 .footer__documents-link:hover{
   text-decoration: none;
 }
+
+@media (max-width: 568px){
+  .footer__documents-link{
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}

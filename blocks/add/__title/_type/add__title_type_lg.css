@@ -4,3 +4,11 @@
   color: #010101;
   margin-bottom: 3.4rem;
 }
+
+@media (max-width: 568px) {
+  .add__title_type_lg{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 0.4rem;
+  }
+}

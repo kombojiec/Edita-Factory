@@ -7,3 +7,9 @@
   text-decoration: none;
   color: #000000;
 }
+
+@media (max-width: 568px){
+  .footer__phone{
+    font-size: 2rem;
+  }
+}

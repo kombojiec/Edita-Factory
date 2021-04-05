@@ -9,8 +9,8 @@
 @media (max-width: 568px){
   .footer__content{
     padding: 1rem;
-    grid-template-rows: repeat(2, minmax(min-content, max-content));
-    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     margin-bottom: 0;
   }
 }

@@ -10,7 +10,7 @@
   .mobile-nav__button{
     position: fixed;
     z-index: 3;
-    top: 9rem;
+    top: 1rem;
     right: 5rem;
     width: 5rem;
     height: 5rem;

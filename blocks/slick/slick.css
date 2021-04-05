@@ -71,3 +71,9 @@ left: -5rem;
   right: 5.3rem; 
   z-index: 1;
 }
+
+@media(max-width: 568px){
+  .main-grid__slider .slick-arrow{
+    top: 2rem;
+  }
+}

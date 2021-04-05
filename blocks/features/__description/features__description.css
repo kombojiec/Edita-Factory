@@ -3,3 +3,11 @@
   line-height: 1.8rem;
   letter-spacing: 0.015em;
 }
+
+@media (max-width: 568px){
+  .features__description{
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+  }
+}
