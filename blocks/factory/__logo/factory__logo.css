@@ -5,3 +5,10 @@
   height: auto;
 }
 
+@media(max-width: 568px){
+  .factory__logo{
+    margin-bottom: 2rem;
+    grid-row: 1/2;
+  }
+}
+

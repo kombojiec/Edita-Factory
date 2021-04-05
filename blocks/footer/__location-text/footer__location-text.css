@@ -7,3 +7,10 @@
   letter-spacing: 0.01em;
   text-align: left;
 }
+
+@media (max-width: 568px){
+  .footer__location-text{
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}

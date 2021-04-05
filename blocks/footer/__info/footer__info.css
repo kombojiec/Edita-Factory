@@ -8,7 +8,7 @@
 @media (max-width: 568px){
   .footer__info{
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     padding: 2rem 1rem;
   }

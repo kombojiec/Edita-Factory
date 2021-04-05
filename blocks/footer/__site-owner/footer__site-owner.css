@@ -3,3 +3,10 @@
   line-height: 1.3rem;
   color: #555555;
 }
+
+@media (max-width: 568px){
+  .footer__site-owner{
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+}
