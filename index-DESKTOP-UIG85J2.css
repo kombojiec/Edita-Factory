@@ -1,0 +1,47 @@
+/* ============= utiles ================= */
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+
+/* ============= html/body ================= */
+@import url(./blocks/body/body.css);
+@import url(./blocks/document/document.css);
+
+
+/* ============= container ================= */
+@import url(./blocks/container/container.css);
+
+/* ============= header ================= */
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__content/header__content.css);
+@import url(./blocks/header/__nav/header__nav.css);
+@import url(./blocks/header/__nav-list/header__nav-list.css);
+@import url(./blocks/header/__nav-item/header__nav-item.css);
+@import url(./blocks/header/__nav-img/header__nav-img.css);
+@import url(./blocks/header/__nav-link/header__nav-link.css);
+@import url(./blocks/header/__row/header__row.css);
+@import url(./blocks/header/__row/_type/header__row_type_upper.css);
+@import url(./blocks/header/__row/_type/header__row_type_lower.css);
+@import url(./blocks/header/__buttons/header__buttons.css);
+
+
+/* ============= logo ================= */
+@import url(./blocks/logo/logo.css);
+@import url(./blocks/logo/__img/logo__img.css);
+@import url(./blocks/logo/__text/logo__text.css);
+
+/* ============= low-nav ================= */
+@import url(./blocks/low-nav/low-nav.css);
+@import url(./blocks/low-nav/__list/low-nav__list.css);
+@import url(./blocks/low-nav/__item/low-nav__item.css);
+@import url(./blocks/low-nav/__link/low-nav__link.css);
+
+/* ============= button ================= */
+@import url(./blocks/button/button.css);
+@import url(./blocks/button/_type/header__button_type_red.css);
+@import url(./blocks/button/_type/header__button_type_gray);
+
+/* ============= page ================= */
+@import url(./blocks/page/page.css);
+
+/* ============= footer ================= */
+@import url(./blocks/footer/footer.css);

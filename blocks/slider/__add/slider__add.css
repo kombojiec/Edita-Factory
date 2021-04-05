@@ -7,3 +7,9 @@
   padding: 3rem 0 2.5rem;
   position: relative;
 }
+
+@media (max-width: 1200px){
+  .slider__add{
+      min-height: 14rem;
+  }
+} 

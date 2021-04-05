@@ -8,3 +8,21 @@
     color: #000;
     box-sizing: border-box;
 }
+
+@media (max-width: 1200px){
+    .document{
+        font-size: 8px;
+    }
+} 
+
+@media (max-width: 990px){
+    .document{
+        font-size: 6px;
+    }
+} 
+
+@media (max-width: 736px){
+    .document{
+        font-size: 4px;
+    }
+} 

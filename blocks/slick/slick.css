@@ -16,7 +16,7 @@
   background-color: #888;
 }
 
-.slick-prev{
+.slider .slick-prev{
 left: -5rem;
 }
 
@@ -36,7 +36,7 @@ left: -5rem;
   transform: rotate(45deg);
 }
 
-.slick-next{
+.slider .slick-next{
   right: -5rem;
 }
 
@@ -54,4 +54,20 @@ left: -5rem;
   border-bottom: none;
   border-left: none;
   transform: rotate(45deg);
+}
+
+.main-grid__slider .slick-arrow{
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: rgba(48, 71, 112, .8);
+  top: 19.5rem;
+}
+
+.main-grid__slider .slick-next{
+  right: 1.8rem;
+}
+
+.main-grid__slider .slick-prev{
+  right: 5.3rem; 
+  z-index: 1;
 }

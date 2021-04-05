@@ -16,6 +16,7 @@
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__content/header__content.css);
 @import url(./blocks/header/__content/_type/header__content_type_lower.css);
+@import url(./blocks/header/__contacts-img/header__contacts-img.css);
 @import url(./blocks/header/__nav/header__nav.css);
 @import url(./blocks/header/__nav-list/header__nav-list.css);
 @import url(./blocks/header/__nav-item/header__nav-item.css);
@@ -167,7 +168,6 @@
 @import url(./blocks/footer/__documents-link/footer__documents-link.css);
 @import url(./blocks/footer/__site-owner/footer__site-owner.css);
 @import url(./blocks/footer/__site-owner-link/footer__site-owner-link.css);
-/* @import url(./blocks/footer); */
 
 /* ============= map ================= */
 @import url(./blocks/map/map.css);

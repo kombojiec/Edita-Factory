@@ -1,0 +1,9 @@
+.header__contacts-img{
+
+}
+
+@media (max-width: 736px){
+  .header__contacts-img{
+      width: 2rem;
+  }
+}
