@@ -12,3 +12,9 @@
 .features__item:last-child{
   border: none;
 }
+
+@media (max-width: 568px){
+  .features__item{
+    width: 30%;
+  }
+}

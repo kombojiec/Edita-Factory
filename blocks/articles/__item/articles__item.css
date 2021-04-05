@@ -6,3 +6,9 @@
   min-height: 35rem;
   margin: 5rem 0 6rem;
 }
+
+@media (max-width: 568px){
+  .articles__item{
+    margin: 3rem 0 3rem;
+  }
+}

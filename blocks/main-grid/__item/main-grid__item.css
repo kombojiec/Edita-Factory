@@ -7,3 +7,9 @@
 .main-grid__item:nth-child(1n + 4) .add__title{
   margin: 0;
 }
+
+@media (max-width: 568px){
+  .main-grid__item{
+      grid-column: 1/2;
+  }
+}

@@ -1,9 +1,0 @@
-.header__buttons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.header__buttons button:first-child{
-    margin-right: 0.375rem;
-}

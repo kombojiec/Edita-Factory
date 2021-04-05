@@ -9,3 +9,9 @@
   padding: 3.5rem;
   background: linear-gradient(to bottom,#f8f8f8 50%, #fff 51%, #fff 100%);
 }
+
+@media (max-width: 568px){
+  .factory{
+         /* grid-template-columns: repeat(5, 20%); */
+  }
+}

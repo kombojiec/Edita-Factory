@@ -2,3 +2,10 @@
   background-color: #fff;
   justify-content: start;
 }
+
+
+@media (max-width: 568px){
+  .header__content_type_lower{
+      justify-content: space-between;
+  }
+}

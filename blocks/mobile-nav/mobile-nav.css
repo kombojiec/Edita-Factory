@@ -1,0 +1,11 @@
+.mobile-nav{
+  width: 25rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  padding: 15rem 2rem 10rem;
+  transition: all 0.3s linear;
+  background-color: rgba(204, 204, 204, 0.7);
+}

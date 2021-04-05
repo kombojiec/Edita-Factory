@@ -4,3 +4,10 @@
   grid-template-columns: repeat(2, minmax(45%, 50%));
   column-gap: 3rem;
 }
+
+@media (max-width: 568px){
+  .articles{
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+  }
+}

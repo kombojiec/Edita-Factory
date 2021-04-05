@@ -3,3 +3,9 @@
   justify-content: center;
   align-items: flex-start;
 }
+
+@media (max-width: 568px){
+  .features{
+    flex-wrap: wrap;
+  }
+}

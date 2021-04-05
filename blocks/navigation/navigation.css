@@ -3,3 +3,10 @@
   align-items: start;
   justify-content: start;
 }
+
+@media (max-width: 568px){
+  .navigation{
+    grid-row: 2/3;
+    grid-column: 1/3;
+  }
+}

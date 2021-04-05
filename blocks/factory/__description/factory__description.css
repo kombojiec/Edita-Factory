@@ -4,3 +4,9 @@
   font-size: 1.6rem;
   line-height: 2.4rem;
 }
+
+@media (max-width: 568px){
+  .factory__description{
+    padding: 1rem 1rem 0 0;
+  }
+}

@@ -1,0 +1,9 @@
+.footer__contacts-img{
+
+}
+
+@media (max-width: 568px){
+  .footer__contacts-img{
+    width: 2rem;
+  }
+}

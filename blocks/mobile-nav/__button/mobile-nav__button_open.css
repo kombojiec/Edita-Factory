@@ -1,0 +1,5 @@
+.mobile-nav__button_open{
+  background: center / cover no-repeat url(../../../images/remove-button.svg);
+  background-color: #385382;
+  border-radius: 50%;
+}

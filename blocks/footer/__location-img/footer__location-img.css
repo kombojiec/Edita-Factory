@@ -1,0 +1,9 @@
+.footer__location-img{
+
+}
+
+@media (max-width: 568px){
+  .footer__location-img{
+    width: 2rem;
+  }
+}

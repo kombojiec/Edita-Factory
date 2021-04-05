@@ -4,3 +4,10 @@
   justify-content: center;
   margin-bottom: 3.5rem;
 }
+
+@media (max-width: 568px){
+  .footer__contacts{
+    margin: 0 0 0 4rem;
+    order: 1;
+  }
+}
