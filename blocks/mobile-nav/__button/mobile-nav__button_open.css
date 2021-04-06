@@ -1,5 +1,9 @@
 .mobile-nav__button_open{
-  background: center / cover no-repeat url(../../../images/cross.svg);
-  /* background-color: #385382; */
-  border-radius: 50%;
+  background: center / cover no-repeat url(../../../images/cancel.svg);
+}
+
+.mobile-nav__button_open:active{
+  border: none;
+  outline: none;
+  box-shadow: none;
 }

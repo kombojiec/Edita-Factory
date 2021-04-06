@@ -18,5 +18,6 @@
 
 @media (max-width: 568px){
     .header__buttons{
+        margin: 0 auto;
     }
 } 

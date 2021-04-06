@@ -26,13 +26,9 @@
         font-size: 4px;
     }
 } 
-<<<<<<< HEAD
-=======
 
 @media (max-width: 568px){
     .document{
-        font-size: 6px;
+        font-size: 8px;
     }
 } 
-
->>>>>>> develop

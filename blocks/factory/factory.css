@@ -15,5 +15,6 @@
     grid-template-rows: max-content;
     grid-template-columns: 1fr;
     border: none;
+    background: #f8f8f8;
   }
 }

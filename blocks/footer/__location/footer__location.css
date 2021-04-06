@@ -5,5 +5,7 @@
 
 @media (max-width: 568px){
   .footer__location{
-flex-basis: 50%;  }
+    width: 100%;  
+    justify-content: center;
+}
 }

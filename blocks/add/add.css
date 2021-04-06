@@ -8,3 +8,9 @@
   box-sizing: border-box;
   max-width: 17rem;
 }
+
+@media (max-width: 568px){
+  .add{
+    padding: 1rem 1.5rem;
+  }
+}

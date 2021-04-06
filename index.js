@@ -33,11 +33,11 @@ document.addEventListener('DOMContentLoaded', function(){
   navTips.forEach((item, index) => {
 
     if(window.innerWidth <= 736){
-      openWidthOfTip =  "16rem";
+      openWidthOfTip =  "25rem";
       widthOfTip = "7rem"
     }
 
-    item.addEventListener('mouseover', ()=> {
+    item.addEventListener('click', ()=> {
       item.style.width = openWidthOfTip;
       navLinks[index].classList.add('visible');
     })

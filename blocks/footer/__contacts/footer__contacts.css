@@ -7,7 +7,7 @@
 
 @media (max-width: 568px){
   .footer__contacts{
-    margin: 0 0 0 4rem;
+    margin: auto;
     order: 1;
   }
 }

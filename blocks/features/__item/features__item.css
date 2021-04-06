@@ -15,7 +15,7 @@
 
 @media (max-width: 568px){
   .features__item{
-    width: 45%;
+    width: 100%;
     border: none;
     margin-bottom: 2rem;
   }

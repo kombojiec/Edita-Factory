@@ -12,5 +12,8 @@
   .footer__location-text{
     font-size: 2rem;
     line-height: 2rem;
+    max-width: 60%;
+    margin-bottom: 2rem;
+    text-align: center;
   }
 }
