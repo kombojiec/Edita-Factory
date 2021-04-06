@@ -1,0 +1,6 @@
+.measures__item{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-basis: 25%;
+}

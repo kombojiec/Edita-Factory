@@ -30,22 +30,23 @@ document.addEventListener('DOMContentLoaded', function(){
   const sideNav = document.querySelector('.side-nav');
   let openWidthOfTip = "12rem";
   let widthOfTip = "5rem";
-  navTips.forEach((item, index) => {
 
-    if(window.innerWidth <= 736){
-      openWidthOfTip =  "16rem";
-      widthOfTip = "7rem"
-    }
+  if(window.innerWidth <= 736){
+    openWidthOfTip =  "16rem";
+    widthOfTip = "7rem"
+  }
 
-    item.addEventListener('mouseover', ()=> {
+  navTips.forEach((item, index) => {  
+    item.addEventListener('click', ()=> {
       item.style.width = openWidthOfTip;
       navLinks[index].classList.add('visible');
     })
-    item.addEventListener('mouseout', ()=>{
+    item.addEventListener('mouseleave', ()=>{
+      console.log('mouseout');
       navLinks[index].classList.remove('visible');
       item.style.width = widthOfTip;
-    })
-  })
+    })    
+  })  
 
   document.addEventListener('scroll', () => {
     if(pageYOffset > 134 && window.innerWidth > 568){

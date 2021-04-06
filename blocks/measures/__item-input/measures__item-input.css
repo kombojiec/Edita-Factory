@@ -1,0 +1,12 @@
+.measures__item-input{
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  width: 7rem;
+  height: 5rem;
+  padding: 1rem;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  letter-spacing: 0.005em;
+  border: 1px solid #919191;
+}
