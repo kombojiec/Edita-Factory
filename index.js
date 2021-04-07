@@ -31,20 +31,12 @@ document.addEventListener('DOMContentLoaded', function(){
   let openWidthOfTip = "12rem";
   let widthOfTip = "5rem";
 
-<<<<<<< HEAD
-    if(window.innerWidth <= 736){
-      openWidthOfTip =  "25rem";
-      widthOfTip = "7rem"
-    }
-
-=======
   if(window.innerWidth <= 736){
     openWidthOfTip =  "16rem";
     widthOfTip = "7rem"
   }
 
   navTips.forEach((item, index) => {  
->>>>>>> develop
     item.addEventListener('click', ()=> {
       item.style.width = openWidthOfTip;
       navLinks[index].classList.add('visible');
