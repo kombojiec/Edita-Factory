@@ -5,4 +5,13 @@
   line-height: 1.5rem;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  text-align: left;
+}
+
+@media (max-width: 568px) {
+  .measures__item-name{
+    font-size: 2rem;
+    line-height: 2rem;
+    max-width: 20rem;
+  }
 }

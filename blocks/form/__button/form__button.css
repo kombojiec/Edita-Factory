@@ -6,3 +6,10 @@
   color: #fbfbfc;
   background-color: #c2242d;
 }
+
+@media (max-width: 568px){
+  .form__button{
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+}

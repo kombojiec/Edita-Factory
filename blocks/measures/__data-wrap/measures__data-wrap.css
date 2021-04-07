@@ -1,0 +1,9 @@
+.measures__data-wrap{
+
+}
+
+@media (max-width: 568px) {
+  .measures__data-wrap{
+    width: 50%;
+  }
+}

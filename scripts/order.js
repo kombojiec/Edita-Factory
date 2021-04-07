@@ -1,28 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){ 
   "use strict";
 
-  // =============== слайдеры ================
-  $('.slider').slick({
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 569,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-        }
-      },      
-    ]
-  });
-
-  $('.main-grid__slider').slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  });
   
   // ============= боковое меню ===============
   const navTips = document.querySelectorAll('.side-nav__item');
@@ -84,7 +62,6 @@ document.addEventListener('DOMContentLoaded', function(){
   document.querySelector('.map__button').addEventListener('click', () => {
     document.querySelector('.map__cover').classList.add('hidden');
   })
-
 
 
   // <<============== document's end =================>>

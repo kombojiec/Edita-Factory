@@ -194,6 +194,7 @@
 /* ============= measure ================= */
 @import url(./blocks/measures/measures.css);
 @import url(./blocks/measures/__data/measures__data.css);
+@import url(./blocks/measures/__data-wrap/measures__data-wrap.css);
 @import url(./blocks/measures/__description/measures__description.css);
 @import url(./blocks/measures/__form/measures__form.css);
 @import url(./blocks/measures/__img/measures__img.css);
