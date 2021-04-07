@@ -1,7 +1,7 @@
 .section_type_order{
   position: relative;
   top: -5.5rem;
-  background: center / cover no-repeat url(../../../../images/order-bg.png);
+  background: center / cover no-repeat url(../../../images/order-bg.png);
   min-height: 31rem;
   box-sizing: border-box;
 }
