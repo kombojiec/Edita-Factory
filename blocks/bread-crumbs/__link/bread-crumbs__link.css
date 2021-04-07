@@ -1,0 +1,11 @@
+.bread-crumbs__link{
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.015em;
+  margin: 0;
+}
+
+.bread-crumbs__link:hover{
+  text-decoration: none;
+}

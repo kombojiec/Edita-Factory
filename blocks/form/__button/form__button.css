@@ -1,0 +1,15 @@
+.form__button{
+  font-size: 1.6rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.05em;
+  padding: 2.1rem 13.1rem;
+  color: #fbfbfc;
+  background-color: #c2242d;
+}
+
+@media (max-width: 568px){
+  .form__button{
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+}

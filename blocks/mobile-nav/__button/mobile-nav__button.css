@@ -1,4 +1,5 @@
 .mobile-nav__button{
+  display: none;
 }
 
 .mobile-nav__button:focus{
@@ -8,6 +9,7 @@
 
 @media (max-width: 568px) {
   .mobile-nav__button{
+    display: block;
     position: fixed;
     z-index: 3;
     top: 1rem;

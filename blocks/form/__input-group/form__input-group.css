@@ -1,0 +1,10 @@
+.form__input-group{
+  width: 55%;  
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 568px){
+  .form__input-group{
+    width: 100%;
+  }
+}

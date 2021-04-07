@@ -1,0 +1,12 @@
+.form__input_type_comment{
+  min-height: 10rem;
+  /* display: flex; */
+  /* text-align: left; */
+  vertical-align: text-top;
+}
+
+/* .form__input_type_comment{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+} */

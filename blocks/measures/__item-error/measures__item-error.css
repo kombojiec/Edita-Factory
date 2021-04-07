@@ -1,0 +1,13 @@
+.measures__item-error{
+  font-size: 1.4rem;
+  text-align: left;
+  color: red;
+  padding-top: 1rem;
+}
+
+@media (max-width: 568px) {
+  .measures__item-error{
+    font-size: 2rem;
+    max-width: 20rem;
+  }
+}

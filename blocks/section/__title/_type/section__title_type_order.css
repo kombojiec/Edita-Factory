@@ -1,0 +1,18 @@
+.section__title_type_order{
+  background-color: #f7f7f7;
+  padding: 2.4rem 3.5rem 2rem;
+  margin-top: 3rem;
+  font-size: 3.6rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 3.6rem;
+  letter-spacing: 0.035;
+}
+
+.section__title_type_order::after{
+  display: none;
+}
+
+.section__title_type_order::before{
+  display: none;
+}

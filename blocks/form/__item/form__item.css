@@ -1,0 +1,19 @@
+.form__item{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form__item:nth-child(4){
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 568px){
+  .form__item{
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: baseline;
+    margin-bottom: 2.5rem;   
+  }
+}

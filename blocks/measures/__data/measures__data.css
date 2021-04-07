@@ -1,0 +1,12 @@
+.measures__data{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+@media (max-width: 568px) {
+  .measures__data{
+    flex-basis: 50%;
+  }
+}

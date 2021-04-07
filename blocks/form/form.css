@@ -1,0 +1,11 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 3rem;
+  padding: 10%;
+  background: linear-gradient(to right, #21324f, #385383 50%, #21324f);
+}

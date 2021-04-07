@@ -1,0 +1,22 @@
+.measures__img{
+  min-height: 17.5rem;
+  width: 9rem;
+  margin-right: 3rem;
+}
+
+@media (max-width: 568px) {
+  .measures__img{
+    max-width: 10rem;
+    margin-right: 1rem;
+    margin-left: 5rem;
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 440px) {
+  .measures__img{
+    max-width: 12rem;
+    margin-right: 3rem;
+    margin-left: 10rem;
+  }
+}

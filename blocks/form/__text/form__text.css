@@ -1,0 +1,20 @@
+.form__text{
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+  max-width: 40%;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 568px){
+  .form__text{
+    font-size: 2rem;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    line-height: 2.2rem;
+  }
+}

@@ -1,0 +1,24 @@
+.form__input-wrapper{
+  position: relative;
+  margin-right: 100%;
+  width: 50%;
+  height: 4rem;
+}
+
+.form__input-wrapper::after{
+  content: "Прикрепить Фото";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.6rem;
+  line-height: 3rem;
+  width: 100%;
+  color: #fff;
+}
+
+@media (max-width: 568px){
+  .form__input-wrapper::after{
+    font-size: 2rem;
+  }
+}
