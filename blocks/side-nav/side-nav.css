@@ -2,6 +2,8 @@
   display: block;
   position: fixed;
   top: 10rem;
-  right: 1rem;
-  width: 12rem;
+  /* right: 1rem; */
+  right: 0;
+  /* width: 12rem; */
+  width: 5rem;
 }

@@ -28,12 +28,12 @@ document.addEventListener('DOMContentLoaded', function(){
   const navTips = document.querySelectorAll('.side-nav__item');
   const navLinks = document.querySelectorAll('.side-nav__link');
   const sideNav = document.querySelector('.side-nav');
-  let openWidthOfTip = "12rem";
+  let openWidthOfTip = "15rem";
   let widthOfTip = "5rem";
 
   if(window.innerWidth <= 736){
-    openWidthOfTip =  "16rem";
-    widthOfTip = "7rem"
+    openWidthOfTip =  "25rem";
+    widthOfTip = "9rem"
   }
 
   navTips.forEach((item, index) => {  
