@@ -220,6 +220,7 @@
 @import url(./blocks/form/__input/_type/form__input_type_photo.css);
 @import url(./blocks/form/__input-wrapper/form__input-wrapper.css);
 @import url(./blocks/form/__policy/form__policy.css);
+@import url(./blocks/form/__label-file/form__label-file.css);
 
 /* ============= slick ================= */
 @import url(./blocks/slick/slick.css);
